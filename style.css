@@ -174,6 +174,12 @@ html{
 .social_icons img{
     margin-top: 16px;
 }
+.patter_shape{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: flex-end;
+}
 .patter_shape img{
     width: 280px;
 }
@@ -224,20 +230,20 @@ html{
     font-family: var(--primaryfont);
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 20px;
     letter-spacing: -1px;
     color: var(--Black);
-    margin: 10px 0;
+    margin: 14px 0;
 
 }
 .posts_text p{
     font-family: var(--secundaryfont);
     font-style: normal;
     font-weight: 400;
-    font-size: 10px;
-    line-height: 15px;
+    font-size: 14px;
+    line-height: 18px;
     color: var(--Mediumgrey);
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 
 }
