@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --light: #FFFFFF;
+    --Lavander: #F4F0F8;
+    --Black: #232536;
+    --yellow: #FFD050;
+    --purple: #592EA9;
+    --DarkGrey: #4C4C4C;
+    --Mediumgrey: #6D6E76;
+    --primaryfont: 'Sen' , sans-serif;
+    --secundaryfont: 'Inter', sans-serif;
+    
+    }
+
+body{
+    max-width: 1300px;
+    margin: 0 auto;
+    min-width: 320px
+}
+html{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Sen', sans-serif;
+}
+
+.header{
+    width: 100%;
+}
+
+.header_navbar-container{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #232536;
+}
+.header_logo img{
+    cursor: pointer;
+    width: 140px;
+    height: 28.35px;
+    padding-left: 40px;
+
+}
+.bar-btn{
+    margin-right: 50px; 
+    width: 20px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+}
+.bar-btn #spn1,#spn2,#spn3{
+    position: absolute;
+    content: '';
+    background: var(--light);
+    width: 40px;
+    height: 5px;
+    border-radius: 5px;
+    transition: all 400ms ease;
+}
+#spn2{
+    top: 11px;
+
+}
+#spn3{
+    top: 22px;
+}
+#check:checked ~ .bar-btn #spn1{
+    transform: rotate(140deg);
+    top: 10px;
+}
+#check:checked ~ .bar-btn #spn2{
+    opacity: 0;
+}
+#check:checked ~ .bar-btn #spn3{
+    transform: rotate(-140deg);
+    top: 10px;
+}
+
+.header_nav{
+    position: fixed;
+    width: 100%;
+    height: 0;
+    top: 80px;
+    background: rgb(35 37 54);
+    text-align: center;
+    transition: all .3s;
+    z-index: 999999;
+}
+.header_nav li{
+    list-style: none;
+    display: none;
+    line-height: 30px;
+    margin: 50px 0;
+    transition: all .5s;
+
+}
+.header_nav li a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.header_nav li a.active, .header_nav li a:hover{
+    color: var(--Lavander);
+    transition: .3s;
+}
+#check{
+    display: none;
+}
+#check:checked ~ .header_nav{
+    height: 100vh;
+}
+#check:checked ~ .header_nav li{
+    display: block;
+}
+
+/* banner */
+
+
+.bannner_section{
+    width: 100%;
+    height: 100vh
+}
+
+.banner_container{
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.author{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.author img{
+    width: 150px; 
+    
+}
+.banner_text{
+   
+    width: 100%;
+    text-align: center;
+    padding: 0 20px;
+
+}
+.banner_text h1{
+    margin-bottom: 20px;
+    font-family: var(--primaryfont);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: -2px;
+    color: var(--Black);
+}
+.banner_text p{
+    margin-top: 20px;
+    font-family: var(--secundaryfont);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--Mediumgrey);
+}
+.social_icons img{
+    margin-top: 16px;
+}
+.patter_shape img{
+    width: 280px;
+}
+
+/* section posts */
+.section_posts_container{
+    width: 100%;
+    height: 100vh;
+}
+.section_posts_container h1{
+    text-align: center;
+    font-family: var(--primaryfont);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--Black);
+    margin-bottom: 30px;
+}
+.section_posts{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section_posts picture img{
+    width: 160px;
+}
+.section_posts .posts_text{
+    width: 100%;
+    text-align: center;
+    padding: 0 20px;
+}
+.posts_text span{
+    font-family: var(--secundaryfont);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--purple);
+}
+.posts_text h2{
+    font-family: var(--primaryfont);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -1px;
+    color: var(--Black);
+    margin: 10px 0;
+
+}
+.posts_text p{
+    font-family: var(--secundaryfont);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: var(--Mediumgrey);
+    margin-bottom: 20px;
+
+}
