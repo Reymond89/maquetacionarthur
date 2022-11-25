@@ -23,14 +23,14 @@
             <span id="spn3"></span>
           </label>
           <ul class="header_nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Blog</a></li>
+            <li><a href="#bannner_section">Home</a></li>
+            <li><a href="#section_posts_container">Blog</a></li>
             <li><a href="#">About Us</a></li>
             <li><a href="#">contact us</a></li>
           </ul>
         </nav>
       </header>
-      <section class="bannner_section">
+      <section class="bannner_section" id="bannner_section">
         <div class="banner_container">
           <picture class="author">
             <img src="./img/close-up-photography-of-man-wearing-sunglasses-1212984.svg" alt="">
@@ -47,7 +47,7 @@
           </div>
         </div>
       </section>
-      <section class="section_posts_container">
+      <section class="section_posts_container" id="section_posts_container">
         <h1>My Posts</h1>
         <div class="section_posts">
           
@@ -105,5 +105,12 @@
         </div>
 
       </footer>
+      <script>
+        const checkBox  = document.querySelector('#check');
+        // Crea un Array con los li
+        const lis = Array.from(document.querySelector('.header_nav').getElementsByTagName('li')) 
+        // Recorre cada li y le agrega el envento click que desactiva el checkBox
+        lis.forEach(li => li.addEventListener('click', () =>  checkBox.checked = false))
+      </script>
 </body>
 </html>
