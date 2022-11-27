@@ -47,7 +47,7 @@ html{
 }
 .bar-btn{
     margin-right: 50px; 
-    width: 20px;
+    width: 8%;
     height: 30px;
     position: relative;
     cursor: pointer;
@@ -123,16 +123,19 @@ html{
 
 
 .bannner_section{
-    width: 100%;
+   
     height: 100%;
+    background-color: var(--Lavander);
 }
 
 .banner_container{
-    height: 550px;
+   
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
+    padding: 20px;
 }
 .author{
     width: 100%;
@@ -177,7 +180,6 @@ html{
 .patter_shape{
     display: flex;
     justify-content: center;
-    height: 50px;
     align-items: flex-end;
     margin-bottom: 40px;
 }
@@ -189,6 +191,7 @@ html{
 .section_posts_container{
     width: 100%;
     height: 100%;
+    
 }
 .section_posts_container h1{
     text-align: center;
@@ -314,6 +317,11 @@ footer{
     align-items: center;
     justify-content: center;
 }
+.suscription_input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 .suscription .input{
     min-width: 250px;
     height: 56px;
@@ -361,3 +369,132 @@ footer{
 .address_footer .social_footer{
     color: var(--light);
 }
+
+@media screen and (min-width: 750px){
+    .bar-btn{
+        display: none;
+    }
+    .header_nav{
+        position: relative;
+        height: 100px;
+        top: 0;
+        background: none;
+        transition: none;
+        text-align: right;
+        margin-right: 60px;
+    }
+    .header_nav li{
+        display: inline-block;
+        line-height: 100px;
+        margin: 0 20px;
+        transition: none;
+    }
+    .header_nav li a{
+        font-size: 18px;
+    }
+
+
+
+    .bannner_section{
+        
+        padding: 80px 30px;
+    }
+
+    .banner_container{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 35px;
+    }
+    .author{
+        width: 50%;
+
+    }
+    .author img{
+        width: 200px;
+    }
+    .author{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .banner_text h1{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .banner_text p{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .patter_shape{
+        display: flex;
+        margin-bottom: 40px;
+        justify-content: center;
+    }
+    .patter_shape img{
+        width: 650px;
+        height: 14px;
+    }
+
+    /* post */
+    .section_posts_container{
+        padding: 0 85px;
+    }
+
+    .section_posts_container h1{
+        text-align: initial;
+        font-size: 25px;
+
+    }
+    .section_posts{
+        width: 100%;
+        margin-bottom: 40px;
+        flex-direction: row;
+        gap: 15px;
+    }
+    .section_posts picture{
+        width: 60%;
+    }
+    .section_posts picture img{
+        width: 280px;
+    }
+    .section_posts .posts_text{
+        text-align: inherit;
+    }
+    .posts_text h2{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .posts_text p{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    /* footer */
+    .footer_nav{
+        width: 90%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer_nav .footer_list{
+        flex-direction: row;
+    }
+    .suscription{
+        flex-direction: row;
+    }
+    .suscription_container .sub_text{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .address_footer{
+        width: 90%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .address_text{
+        text-align: initial;
+    }
+    .suscription_input{
+        /* display: flex; */
+        gap: 10px;
+    }
