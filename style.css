@@ -29,6 +29,12 @@ html{
 .header{
     width: 100%;
 }
+.container{
+    width: 90%;
+    max-width: 1700px;
+    margin: 0 auto;
+
+}
 
 .header_navbar-container{
     width: 100%;
@@ -298,7 +304,7 @@ footer{
     width: 90%;
     height: 256px;
     margin: 15px 0;
-    padding: 0 64px;
+    padding: 0 30px;
     background-color: rgba(255, 255, 255, 0.05)
 }
 .suscription_container .sub_text{
@@ -311,7 +317,7 @@ footer{
     color: var(--light);
 }
 .suscription{
-    gap: 24px;
+    gap: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -393,11 +399,9 @@ footer{
         font-size: 18px;
     }
 
-
-
     .bannner_section{
         
-        padding: 80px 30px;
+        padding: 70px;
     }
 
     .banner_container{
@@ -405,10 +409,10 @@ footer{
         height: 100%;
         display: flex;
         flex-direction: row;
-        margin-bottom: 35px;
+        margin-bottom: 70px;
     }
     .author{
-        width: 50%;
+        width: 40%;
 
     }
     .author img{
@@ -418,6 +422,9 @@ footer{
         display: flex;
         justify-content: flex-end;
         align-items: center;
+    }
+    .banner_text {
+        text-align: initial;
     }
     .banner_text h1{
         font-size: 25px;
@@ -433,18 +440,24 @@ footer{
         justify-content: center;
     }
     .patter_shape img{
-        width: 650px;
-        height: 14px;
+        width: 600px;
+        
     }
 
     /* post */
     .section_posts_container{
-        padding: 0 85px;
+        padding: 80px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+
     }
 
     .section_posts_container h1{
-        text-align: initial;
+        text-align: center;
         font-size: 25px;
+        line-height: 20px;
+        margin-bottom: 20px;
 
     }
     .section_posts{
@@ -455,6 +468,8 @@ footer{
     }
     .section_posts picture{
         width: 60%;
+        display: flex;
+        justify-content: flex-end;
     }
     .section_posts picture img{
         width: 280px;
@@ -494,7 +509,100 @@ footer{
     .address_text{
         text-align: initial;
     }
-    .suscription_input{
-        /* display: flex; */
-        gap: 10px;
+   
+}
+@media screen and (min-width: 1000px) {
+    
+    .author img{
+        width: 251px;
     }
+    .banner_text h1{
+        font-size: 32px;
+        line-height: 34px;
+    }
+    .banner_text p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .patter_shape img{
+        width: 850px;
+        
+    }
+    /* posts */
+    .section_posts_container h1{
+        font-size: 38px;
+        line-height: 33px;
+        margin-bottom: 30px;
+    }
+    .section_posts picture img{
+        width: 350px;
+    }
+    .posts_text h2{
+        font-size: 38px;
+        line-height: 30px;
+
+    }
+    .posts_text p{
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .suscription_container .sub_text{
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .suscription_input{
+        display: flex;
+        gap: 20px;
+        flex-direction: row;
+    
+    }
+}
+@media screen and (min-width: 1300px) {
+
+    
+    .banner_text h1{
+        font-size: 48px;
+        line-height: 64px;
+        letter-spacing: -2px;
+    }
+    .banner_text p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .patter_shape img{
+        width: 1070px;
+        
+    }
+    /* posts */
+    .section_posts_container h1{
+        font-size: 48px;
+        line-height: 48px;
+        margin-bottom: 35px;
+    }
+    
+    .posts_text span{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .section_posts picture img{
+        width: 350px;
+    }
+    .posts_text h2{
+        font-size: 48px;
+        line-height: 64px;
+        letter-spacing: -2px;
+
+    }
+    .posts_text p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .suscription_container .sub_text{
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .suscription .input{
+        width: 300px;
+    }
+}
