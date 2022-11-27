@@ -1,0 +1,230 @@
+@media screen and (min-width: 750px){
+    .bar-btn{
+        display: none;
+    }
+    .header_nav{
+        position: relative;
+        height: 100px;
+        top: 0;
+        background: none;
+        transition: none;
+        text-align: right;
+        margin-right: 60px;
+    }
+    .header_nav li{
+        display: inline-block;
+        line-height: 100px;
+        margin: 0 20px;
+        transition: none;
+    }
+    .header_nav li a{
+        font-size: 18px;
+    }
+
+    .bannner_section{
+        
+        padding: 70px;
+    }
+
+    .banner_container{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 70px;
+    }
+    .author{
+        width: 40%;
+
+    }
+    .author img{
+        width: 200px;
+    }
+    .author{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .banner_text {
+        text-align: initial;
+    }
+    .banner_text h1{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .banner_text p{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .patter_shape{
+        display: flex;
+        margin-bottom: 40px;
+        justify-content: center;
+    }
+    .patter_shape img{
+        width: 600px;
+        
+    }
+
+    /* post */
+    .section_posts_container{
+        padding: 80px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+
+    }
+
+    .section_posts_container h1{
+        text-align: center;
+        font-size: 25px;
+        line-height: 20px;
+        margin-bottom: 20px;
+
+    }
+    .section_posts{
+        width: 100%;
+        margin-bottom: 40px;
+        flex-direction: row;
+        gap: 15px;
+    }
+    .section_posts picture{
+        width: 60%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .section_posts picture img{
+        width: 280px;
+    }
+    .section_posts .posts_text{
+        text-align: inherit;
+    }
+    .posts_text h2{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .posts_text p{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    /* footer */
+    .footer_nav{
+        width: 90%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer_nav .footer_list{
+        flex-direction: row;
+    }
+    .suscription{
+        flex-direction: row;
+    }
+    .suscription_container .sub_text{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .address_footer{
+        width: 90%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .address_text{
+        text-align: initial;
+    }
+   
+}
+@media screen and (min-width: 1000px) {
+    
+    .author img{
+        width: 251px;
+    }
+    .banner_text h1{
+        font-size: 32px;
+        line-height: 34px;
+    }
+    .banner_text p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .patter_shape img{
+        width: 850px;
+        
+    }
+    /* posts */
+    .section_posts_container h1{
+        font-size: 38px;
+        line-height: 33px;
+        margin-bottom: 30px;
+    }
+    .section_posts picture img{
+        width: 350px;
+    }
+    .posts_text h2{
+        font-size: 38px;
+        line-height: 30px;
+
+    }
+    .posts_text p{
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .suscription_container .sub_text{
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .suscription_input{
+        display: flex;
+        gap: 20px;
+        flex-direction: row;
+    
+    }
+}
+@media screen and (min-width: 1300px) {
+
+    
+    .banner_text h1{
+        font-size: 48px;
+        line-height: 64px;
+        letter-spacing: -2px;
+    }
+    .banner_text p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .patter_shape img{
+        width: 1070px;
+        
+    }
+    /* posts */
+    .section_posts_container h1{
+        font-size: 48px;
+        line-height: 48px;
+        margin-bottom: 35px;
+    }
+    
+    .posts_text span{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .section_posts picture img{
+        width: 350px;
+    }
+    .posts_text h2{
+        font-size: 48px;
+        line-height: 64px;
+        letter-spacing: -2px;
+
+    }
+    .posts_text p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .suscription_container .sub_text{
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .suscription .input{
+        width: 300px;
+    }
+}
