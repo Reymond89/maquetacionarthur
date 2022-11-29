@@ -111,6 +111,16 @@ html{
     text-transform: uppercase;
     font-weight: 700;
 }
+.header_nav .button_nav{
+    background: white;
+    padding: 0.6rem 2.2rem;
+    color: #000;
+    border: 2px solid transparent;
+    transition: all ease 300ms;
+    font-weight: bold;
+}
+
+
 .header_nav li a.active, .header_nav li a:hover{
     color: var(--Lavander);
     transition: .3s;
@@ -387,7 +397,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 20px 30px;
     gap: 20px;
 
 }
@@ -441,7 +451,7 @@ main{
     background-color: var(--purple);
     font-family: 'Sen';
     font-style: normal;
-    height: 200px;
+    height: 170px;
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;

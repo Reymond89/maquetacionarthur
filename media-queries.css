@@ -9,7 +9,7 @@
         background: none;
         transition: none;
         text-align: right;
-        margin-right: 60px;
+        /* margin-right: 60px; */
     }
     .header_nav li{
         display: inline-block;
@@ -18,7 +18,7 @@
         transition: none;
     }
     .header_nav li a{
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .bannner_section{
@@ -227,4 +227,74 @@
     .suscription .input{
         width: 300px;
     }
+}
+
+/* CONTACT PAGE */
+
+@media screen and (min-width: 750px) {
+    .heading_container{
+        padding: 70px 216px;
+    }
+    .heading_subtitle{
+        font-size: 14px;
+    } 
+    .heading_container .heading_description{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .contact_us-container{
+        flex-direction: row;
+    }
+    .contact_text{
+        width: 30%;
+    }
+    .form_container{
+        width: 100%;
+    }
+    .form_container input{
+        width: 55%;
+    }
+    .form_container button{
+        width: 55%;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .heading_subtitle{
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    } 
+    .heading_container h1{
+        font-size: 48px;
+        line-height: 64px;
+        letter-spacing: -2px;
+    }
+    .heading_container .heading_description{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .contact_text{
+        font-size: 20px;
+        line-height: 32px;
+        padding: 30px;
+        width: 360px;
+        height: 240px;
+    }
+    .contact_text p{
+        font-size: 14px;
+    }
+    .form_container input{
+        font-size: 16px;
+        line-height: 28px;
+        width: 56%;
+    }
+    
+    .form_container button{
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+
+
 }
