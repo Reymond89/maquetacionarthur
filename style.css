@@ -544,13 +544,12 @@ main{
 .home_weight{
     font-weight: 900;
 }
-.home_title{
+.home_text .home_title{
     font-family: 'Sen';
     font-style: normal;
     font-weight: 700;
-    font-size: 2px;
+    font-size: 22px;
     line-height: 25px;
-    letter-spacing: -1px;
     color: var(--light);
 }
 .home_date{
@@ -569,7 +568,7 @@ main{
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 15px;
+    line-height: 18px;
     color: var(--light);
     }
     .home_button{
