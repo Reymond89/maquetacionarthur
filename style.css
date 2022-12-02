@@ -610,14 +610,14 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px 31px;
+    /* padding: 40px 31px; */
     gap: 20px;
     width: 100%;
     min-width: 300px;
-    max-width: 733px;
+    max-width: 500px;
     }
 .featured_img img{
-    width: 300px;
+    width: 100%;
    }
 .featured_date{
     font-family: 'Inter';

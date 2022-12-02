@@ -294,7 +294,116 @@
         font-size: 24px;
         line-height: 32px;
     }
+}
 
+/* HOME  */
 
+@media screen and (min-width: 750px) {
+    .home_hero{
+        height: 100vh;
+    }
+    .home_text{
+        width: 804px;
+        height: 100%;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: initial;
+        padding: 50px 60px;
+    }
+    .home_subtitle{
+        font-size: 12px;
+    }
+    .home_text .home_title{
+        font-size: 30px;
+    }
+    .home_date{
+        font-size: 14px;
+    }
+    .home_description{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .home_button{
+        padding: 12px 35px;
+        font-size: 14px;
+    }
 
+    /* featured */
+
+    .featured_posts-container{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .featured_posts{
+        width: 45%;
+            /* display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            width: 45%; */
+    }
+    .posts_container{
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+   
+    .home_text{
+        padding: 80px 80px;
+    }
+    .home_subtitle{
+        font-size: 14px;
+    }
+    .home_text .home_title{
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: -2px;
+    }
+    .home_date{
+        font-size: 16px;
+    }
+    .home_description{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .home_button{
+        padding: 12px 42px;
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 1300px) {
+    .home_hero{
+        display: flex;
+        align-items: center;
+    }
+    .home_text{
+        padding: 80px 80px;
+        height: 400px;
+        gap: 24px;
+    }
+    .home_subtitle{
+        font-size: 16px;
+    }
+    .home_text .home_title{
+        font-size: 56px;
+        line-height: 64px;
+        letter-spacing: -2px;
+        width: 803px;
+        height: 128px;
+    }
+    .home_date{
+        margin-top: 9px;
+    }
+    .home_description{
+       margin-bottom: 24px;
+       width: 599px;
+       height: 56px;
+    }
+   
+    .home_button{
+        padding: 12px 48px;
+        font-size: 18px;
+        line-height: 24px;
+    }
 }
