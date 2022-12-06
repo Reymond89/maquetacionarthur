@@ -9,12 +9,12 @@
         background: none;
         transition: none;
         text-align: right;
-        /* margin-right: 60px; */
+        margin-right: 20px;
     }
     .header_nav li{
         display: inline-block;
         line-height: 100px;
-        margin: 0 20px;
+        margin: 0 10px;
         transition: none;
     }
     .header_nav li a{
@@ -107,6 +107,7 @@
         font-size: 16px;
         line-height: 18px;
     }
+ 
     /* footer */
     .footer_nav{
         width: 90%;
@@ -303,7 +304,7 @@
         height: 100vh;
     }
     .home_text{
-        width: 804px;
+        /* width: 804px; */
         height: 100%;
         justify-content: center;
         align-items: flex-start;
@@ -334,16 +335,164 @@
         flex-direction: row;
         justify-content: center;
     }
+    .featured_title{
+        margin-bottom: 44px;
+    }
     .featured_posts{
         width: 45%;
-            /* display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 20px;
-            width: 45%; */
+        display: flex;
+        height: 600px;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
     .posts_container{
-        width: 30%;
+        width: 35%;
+        display: flex;
+        height: 600px;
+    }
+    .posts_title-contain{
+        margin-bottom: 12px;
+    }
+    .posts_all{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 0 20px;
+    }
+    /* about */
+    .about_contain{
+        /* padding: 96px 108px 96px 80px; desktop */
+        display: flex;
+        align-items: flex-start;
+        height: 350px;
+        padding: 40px;
+        flex-direction: row;
+    }
+    .about_us{
+        display: flex;
+        align-items: flex-start;
+        text-align: initial;
+        gap: 16px;
+    }
+    .about_subtitle{
+        font-size: 14px;
+        margin-bottom: 8px;
+        
+    }
+    .our_mission{
+        gap: 16px;
+        display: flex;
+        align-items: flex-start;
+        text-align: initial;
+    }
+    .our_subtitle{
+        margin-bottom: 8px;
+    }
+    /* category */
+    .category_title{
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .category_item h3{
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .category_item p{
+        font-size: 14px;
+    }
+    /* Especial posts */
+    .especial_text{
+        top: 45%;
+        right: 0%;
+        background: #FFFFFF;
+    }
+
+    /* author cards */
+
+    .author_container{
+        padding: 28px 0 0 0;
+        margin-bottom: 68px;
+    }
+
+    .author_title{
+        font-size: 25px;
+        line-height: 20px;
+        letter-spacing: -1px;
+        margin-bottom: 28px;
+    }
+    .author_name{
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .author_description{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    /* testimonial */
+
+    .testimonial_container{
+        flex-direction: row;
+        align-items: center;
+    }
+    .testimonial_line{
+        width: 310px;
+        height: 0px;
+        border: 1px solid #6D6E76;
+        transform: rotate(90deg);
+    }
+    .testimonial_text-left{
+        margin-bottom: auto;
+    }
+    .testimonial_subtitle{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .testimonial_title{
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .testimonial_description{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .testimonial_text-right{
+        display: flex;
+        text-align: initial;
+        align-items: flex-start;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .profile_left_user-name{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .profile_location{
+        font-size: 14px;
+        line-height: 20px;
+        text-align: initial;
+    }
+
+    /* join section  */
+
+    .jointeam_contain{
+        
+        width: 414px;
+        height: 256px;
+    }
+
+
+    .join_title{
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .join_description{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .join_button{
+        font-size: 14px;
+        line-height: 24px;
     }
 }
 
@@ -371,6 +520,140 @@
         padding: 12px 42px;
         font-size: 16px;
     }
+    /* about */
+    .about_subtitle{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .about_title{
+        font-size: 30px;
+        line-height: 38px;
+        letter-spacing: -2px;
+    }
+    .about_description{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .about_button{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .our_subtitle{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .our_title{
+        font-size: 22px;
+        line-height: 35px;
+        letter-spacing: -1px;
+    }
+    .our_description{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    /* category */
+    .category_title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .category_item h3{
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .category_item p{
+        font-size: 15px;
+    }
+  /* Especial posts */
+    .especial_text{
+        padding: 30px;
+        height: 400px;
+        text-align: initial;
+        top: 26%;
+        display: flex;
+        align-items: flex-start;
+    }
+    .especial_subtitle{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .especial_title{
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .especial_description{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .especial_button{
+        font-size: 16px;
+        line-height: 20px;
+        padding: 15px 20px;
+    }
+     /* author cards */
+
+    .author_title{
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: -2px;
+        
+    }
+    .author_name{
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+      /* testimonial */
+
+    .testimonial_subtitle{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .testimonial_title{
+        font-size: 33px;
+        line-height: 35px;
+    }
+    .testimonial_description{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .testimonial_description-right{
+
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .profile_left_user-name{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .profile_location{
+        font-size: 16px;
+        line-height: 22px;
+       
+    }
+      /* join section  */
+
+      .jointeam_contain{
+       margin: 85px 0 128px 0;
+    }
+    .join_title{
+        font-size: 30px;
+        line-height: 35px;
+        letter-spacing: -2px;
+    }
+    .join_description{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .join_button{
+        width: 174px;
+        height: 56px;
+        padding: 16px 48px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+
+
 }
 @media screen and (min-width: 1300px) {
     .home_hero{
@@ -406,4 +689,266 @@
         font-size: 18px;
         line-height: 24px;
     }
+    /* featured posts */
+    .featured_posts-container{
+        margin-bottom: 88px;
+    }
+    .featured_posts{
+        width: 100%;
+        max-width: 733px;
+        height: 804px;
+    }
+    .featured_title{
+        font-size: 36px;
+        line-height: 48px; 
+        letter-spacing: -2px; 
+    }
+    .featured_img img{
+        width: 669px;
+        height: 352px;
+        margin-bottom: 12px;
+    }
+    .featured_date{
+    
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .featured_subtitle{
+       
+        font-size: 28px;
+        line-height: 40px;
+        letter-spacing: -1px;
+    }
+    .featured_description{
+      
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 12px;
+    }
+    .home_button{
+        
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .posts_container{
+        width: 517px;
+        height: 804px;
+    }
+    .posts_title-contain .posts_title{
+        font-size: 36px;
+        line-height: 48px;  
+        letter-spacing: -2px;
+    }
+    .posts_subtitle{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .posts_all{
+        gap: 1px;
+    }
+    .posts_item{
+        padding: 32px;
+        display: flex;
+        /* width: 517px; */
+        height: 181px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .posts_date{
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 8px;
+    }
+    .posts_item-title{
+        width: 369px;
+        height: 96px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    /* about */
+
+    .about_contain{
+        width: 1280px;
+        height: 500px;
+        padding: 96px 108px 96px 80px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        gap: 62px;
+    }
+    .about_subtitle{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .about_title{
+        width: 494px;
+        height: 144px;
+        font-size: 36px;
+        line-height: 48px;
+        letter-spacing: -2px;
+    }
+    .about_description{
+        width: 515px;
+        height: 56px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .about_button{
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .our_subtitle{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .our_title{
+        width: 481px;
+        height: 80px;
+        font-size: 28px;
+        line-height: 40px;
+        letter-spacing: -1px;
+    }
+    .our_description{
+        width: 516px;
+        height: 108.73px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+   /* category */
+    .category_contatiner{
+        margin: 128px 0;
+       
+    }
+   .category_title{
+        font-size: 36px;
+        line-height: 48px;
+        margin-bottom: 48px;
+        letter-spacing: -2px;
+    }
+    .category_item h3{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .category_item p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    /* Especial posts */
+
+    .special_post-container{
+        width: 1280px;
+        height: 705px;
+        margin: 128px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFFFFF;
+      }
+    .especial_background{
+        width: 949px;
+        height: 705px;
+      }
+    .especial_text{
+        width: 100%;
+        padding: 80px;
+        max-width: 706px;
+        height: 584px;
+        text-align: initial;
+        top: 18%;
+        right: -35%;
+        display: flex;
+        align-items: flex-start;
+    }
+    .especial_subtitle{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .especial_title{
+        width: 546px;
+        height: 192px;
+        font-size: 48px;
+        line-height: 64px;
+        letter-spacing: -2px;
+    }
+    .especial_description{
+        margin-top: -7px;
+        width: 546px;
+        height: 84px;
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 9px;
+    }
+    .especial_button{
+        font-size: 18px;
+        line-height: 24px;
+        padding: 15px 20px;
+        width: 269px;
+        height: 56px;
+    }
+    /* author cards */
+  
+
+    .author_title{
+        font-size: 36px;
+        line-height: 48px;
+        
+    }
+    .author_name{
+        font-size: 28px;
+        line-height: 40px;
+        letter-spacing: -1px;
+    }
+
+    
+    /* testimonial */
+    .testimonial_container{
+        display: flex;
+        padding: 80px;
+        width: 1280px;
+        height: 464px;
+        align-items: center;
+    }
+
+    .testimonial_subtitle{
+        letter-spacing: 3px;
+    }
+    .testimonial_title{
+        width: 345px;
+        height: 96px;
+        font-size: 36px;
+        line-height: 48px;
+        letter-spacing: -2px;
+    }
+    .testimonial_description{
+        font-size: 16px;
+        line-height: 28px;
+    }
+   
+    .testimonial_description-right{
+      
+        width: 469px;
+        height: 128px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .profile_left_user-name{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+      /* join section  */
+
+
+    .join_title{
+        width: 414px;
+        height: 96px;
+        font-size: 36px;
+        line-height: 48px;
+       
+    }
+
+ 
 }

@@ -649,7 +649,7 @@ main{
 
 }
 .posts_title-contain{
-    padding: 20px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -676,7 +676,7 @@ main{
     padding: 30px 0;
 }
 .posts_item{
-    max-width: 300px;
+    /* max-width: 300px; */
 }
 .posts_date{
     font-family: 'Inter';
@@ -729,6 +729,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 20px;
 }
 .about_us{
@@ -757,8 +758,8 @@ main{
     font-family: 'Sen';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 23px;
+    line-height: 35px;
     color: var(--Black);
     letter-spacing: -1px;
 }
@@ -779,14 +780,45 @@ main{
     line-height: 22px;
     color: var(--purple);
 }
+.our_mission{
+    width: 100%;
+    max-width: 516px;
+    min-width: 248.73px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.our_subtitle{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--Black);
+}
 .our_title{
     font-family: 'Sen';
     font-style: normal;
     font-weight: 700;
-    font-size: 17px;
-    line-height: 20px;
+    font-size: 19px;
+    line-height: 25px;
     letter-spacing: -0.5px;
+    color: var(--Black);
 }
+.our_description{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--Mediumgrey);
+}
+
 
 /* category */
 
@@ -887,6 +919,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 100%;
     max-width: 400px;
     height: 300px;
@@ -894,7 +927,7 @@ main{
     text-align: center;
     gap: 23px;
     position: absolute;
-    background-color: #ffffffd4;
+    background-color: #ffffff;
     top: 69%;
     right: 1%;
     overflow: hidden;
@@ -1099,7 +1132,7 @@ main{
     flex-direction: column;
     align-items: center;
     width: 100%;
-    gap: 30px;
+    /* gap: 30px; */
     min-width: 300px;
     max-width: 469px;
 }
