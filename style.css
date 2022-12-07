@@ -593,7 +593,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
     padding: 40px 20px;
     /* background-color: #E5E5E5; */
     }
@@ -606,6 +606,16 @@ main{
     color: var(--Black);
    
     }
+.featured_info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 0 30px;
+    
+}
+
+
 .featured_posts{
     display: flex;
     flex-direction: column;
@@ -736,7 +746,7 @@ main{
     /* width: 50%;  responsive OJOOOO*/
     width: 100%;
     max-width: 515px;
-    min-width: 300px;
+    /* min-width: 300px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1066,6 +1076,9 @@ main{
 /* testimonial section */
 .testimonial_section{
     padding: 40px 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 .testimonial_container{
@@ -1073,7 +1086,7 @@ main{
     height: 100%;
     background-color: var(--lightYellow);
     padding: 30px 10px;
-    gap: 30px;
+    /* gap: 30px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1160,6 +1173,8 @@ main{
     align-items: center;
     gap: 16px;
 }
+
+
 /* .profile_box-left{
     display: flex;
     flex-direction: row;
@@ -1184,6 +1199,18 @@ main{
     line-height: 16px;
     color: var(--Mediumgrey);
 }
+.profile_button-right{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+    
+}
+.back_button{
+    border: none;
+}
+.next_button{
+    border: none;
+}
 
 /* join team section */
 .join_section-container{
@@ -1191,6 +1218,7 @@ main{
     height: 100%;
     display: flex;
     justify-content: center;
+    margin: 40px 0;
 }
 
 .jointeam_contain{
