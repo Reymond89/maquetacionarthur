@@ -19,8 +19,8 @@
     }
 
 body{
-    max-width: 1440px;
-    margin: 0 auto;
+    /* max-width: 1440px;
+    margin: 0 auto; */
     min-width: 320px
 }
 html{
@@ -37,6 +37,11 @@ html{
     margin: 0 auto;
 
 }
+.header_logo{
+    cursor: pointer;
+    width: 140px;
+    height: 28.35px;
+}
 
 .header_navbar-container{
     width: 100%;
@@ -47,10 +52,8 @@ html{
     background: #232536;
 }
 .header_logo img{
-    cursor: pointer;
-    width: 140px;
-    height: 28.35px;
-    padding-left: 40px;
+    
+    padding-left: 84px;
 
 }
 .bar-btn{
@@ -110,16 +113,25 @@ html{
     text-decoration: none;
     color: #ffff;
     font-size: 25px;
-    text-transform: uppercase;
-    font-weight: 700;
+    text-transform: capitalize;
+    font-weight: 400;
 }
+.margin_contact{
+    margin-right: 8px;
+}
+
 .header_nav .button_nav{
     background: white;
-    padding: 0.6rem 2.2rem;
+    padding: 16px 48px;
     color: #000;
     border: 2px solid transparent;
     transition: all ease 300ms;
     font-weight: bold;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
 }
 
 
@@ -294,14 +306,15 @@ footer{
     justify-content: center;
 }
 .footer_nav picture img{
-    width: 110px;
+    width: 140px;
+    height: 28.35px;
 }
 .footer_nav .footer_list{
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 24px;
 }
 .footer_nav .footer_list li{
     list-style: none;
@@ -315,7 +328,7 @@ footer{
     justify-content: center;
     width: 90%;
     height: 256px;
-    margin: 15px 0;
+    margin: 57px 0;
     padding: 0 30px;
     background-color: rgba(255, 255, 255, 0.05)
 }
@@ -382,6 +395,9 @@ footer{
     line-height: 28px;
     color: var(--light);
     opacity: 0.7;
+   
+}
+.address_text-marginbotton{
     margin-bottom: 20px;
 }
 .address_footer .social_footer{
@@ -611,7 +627,8 @@ main{
     flex-direction: column;
     align-items: flex-start;
     gap: 16px;
-    padding: 0 30px;
+    padding: 32px;
+    border: 1px solid #e7e8f1;
     
 }
 
@@ -671,7 +688,7 @@ main{
     line-height: 18px;
     color: var(--Black);
 }
-.posts_subtitle{
+.posts_subtitle a{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -723,14 +740,14 @@ main{
     align-items: center;
 }
 .about_img{
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: center;
 }
 
 
 .about_img img{
-    width: 80%;
+    width: 82.9%;
 }
 .about_contain{
     padding: 30px 10px;
@@ -874,14 +891,15 @@ main{
 }
 .business{
     width: 48px;
-    border-radius: 5px;
+    border-radius: 13px;
     border: 3px solid white;
     background-color: var(--lightYellow);
 }
 .startup{
-    width: 37px;
-    border-radius: 5px;
-    border: 3px solid white;
+    width: 48px;
+    padding: 10px;
+    border-radius: 12px;
+    /* border: 3px solid white; */
     background-color: var(--lightYellow);
 }
 .category_item h3{
@@ -1039,7 +1057,7 @@ main{
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
-    color: var(--Mediumgrey);
+    color: var(--Black);
     }
 .author_description{
     font-family: 'Inter';
@@ -1047,6 +1065,7 @@ main{
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
+    color: var(--Mediumgrey);
     }
 .author_social{
     width: 112px;
@@ -1068,8 +1087,8 @@ main{
 }
 .logo_item img{
 
-    width: 136px;
-    height: 32px;
+    /* width: 136px;
+    height: 32px; */
 
 }
 
@@ -1172,6 +1191,9 @@ main{
     flex-direction: row;
     align-items: center;
     gap: 16px;
+    width: 257px;
+    height: 60px;
+    margin-right: 103px;
 }
 
 
@@ -1206,9 +1228,11 @@ main{
     
 }
 .back_button{
+    background: none;
     border: none;
 }
 .next_button{
+    background: none;
     border: none;
 }
 

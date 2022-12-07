@@ -9,7 +9,7 @@
         background: none;
         transition: none;
         text-align: right;
-        margin-right: 20px;
+        margin-right: 70px;
     }
     .header_nav li{
         display: inline-block;
@@ -18,7 +18,7 @@
         transition: none;
     }
     .header_nav li a{
-        font-size: 14px;
+        font-size: 11px;
     }
 
     .bannner_section{
@@ -113,12 +113,16 @@
         width: 90%;
         flex-direction: row;
         justify-content: space-between;
+        display: flex;
+        align-items: flex-end;
+        margin-top: 41px;
     }
     .footer_nav .footer_list{
         flex-direction: row;
     }
     .suscription{
         flex-direction: row;
+        gap: 64px;
     }
     .suscription_container .sub_text{
         font-size: 24px;
@@ -128,6 +132,7 @@
         width: 90%;
         flex-direction: row;
         justify-content: space-between;
+        margin-bottom: 37px;
     }
     .address_text{
         text-align: initial;
@@ -172,6 +177,7 @@
     .suscription_container .sub_text{
         font-size: 28px;
         line-height: 30px;
+        text-align: initial;
     }
     .suscription_input{
         display: flex;
@@ -224,9 +230,22 @@
     .suscription_container .sub_text{
         font-size: 36px;
         line-height: 48px;
+        width: 562px;
+        height: 96px;
+        letter-spacing: -2px;
     }
     .suscription .input{
         width: 300px;
+        padding: 14px 24px;
+        text-align: inherit;
+    }
+    .suscription_container{
+        width: 1280px;
+        height: 256px;
+    }
+    .button_sub{
+        width: 179px;
+        height: 56px;
     }
 }
 
@@ -369,6 +388,10 @@
         padding: 40px;
         flex-direction: row;
     }
+    .about_img{
+        display: flex;
+        justify-content: flex-end;
+    }
     .about_us{
         display: flex;
         align-items: flex-start;
@@ -422,6 +445,8 @@
         margin-bottom: 28px;
     }
     .author_name{
+        width: 209px;
+        height: 40px;
         font-size: 22px;
         line-height: 25px;
     }
@@ -501,6 +526,13 @@
 }
 
 @media screen and (min-width: 1000px) {
+
+    .header_nav li a{
+        font-size: 14px;
+    }
+    .header_nav .button_nav{
+        font-size: 14px;
+    }
    
     .home_text{
         padding: 80px 80px;
@@ -635,7 +667,7 @@
        
     }
     .profile_contain{
-        padding: 30px 10px;
+        padding: 30px 0px;
         display: flex;
         gap: 30px;
         flex-direction:row;
@@ -666,6 +698,19 @@
 
 }
 @media screen and (min-width: 1300px) {
+    .header_nav .button_nav{
+        font-size: 18px;
+    }
+   
+    .header_nav li a{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+
     .home_hero{
         display: flex;
         align-items: center;
@@ -790,9 +835,15 @@
         flex-direction: row;
         gap: 62px;
     }
+    .about_img{
+        width: 1280px;
+        display: flex;
+        justify-content: flex-end;
+    }
     .about_subtitle{
         font-size: 16px;
         line-height: 20px;
+        letter-spacing: 3px;
     }
     .about_title{
         width: 494px;
@@ -873,7 +924,7 @@
         height: 584px;
         text-align: initial;
         top: 18%;
-        right: -33%;
+        right: -35%;
         display: flex;
         align-items: flex-start;
     }
@@ -886,7 +937,7 @@
         height: 192px;
         font-size: 48px;
         line-height: 64px;
-        letter-spacing: -1px;
+        letter-spacing: -2px;
     }
     .especial_description{
         margin-top: -7px;
