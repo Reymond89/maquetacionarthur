@@ -130,7 +130,10 @@
     }
     .address_footer{
         width: 90%;
+        height: 56px;
         flex-direction: row;
+        display: flex;
+        align-items: center;
         justify-content: space-between;
         margin-bottom: 37px;
     }
@@ -941,7 +944,7 @@
     }
     .especial_description{
         margin-top: -7px;
-        width: 546px;
+        width: 548px;
         height: 84px;
         font-size: 16px;
         line-height: 28px;
@@ -993,7 +996,10 @@
         line-height: 28px;
     }
     .testimonial_line{
-        width: 310px;
+        width: 180px;
+    }
+    .profile_contain{
+        gap: 141px;
     }
    
     .testimonial_description-right{
