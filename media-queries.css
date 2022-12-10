@@ -499,6 +499,7 @@
         align-items: flex-start;
         font-size: 18px;
         line-height: 25px;
+        gap: 40px;
     }
     .profile_left_user-name{
         font-size: 20px;
@@ -724,9 +725,10 @@
     .home_hero{
         display: flex;
         align-items: center;
+        padding: 128px 556px 192px 0;
     }
     .home_text{
-        padding: 80px 80px;
+        padding: 80px 70px;
         height: 400px;
         gap: 24px;
     }
@@ -857,7 +859,7 @@
         letter-spacing: 3px;
     }
     .about_title{
-        width: 494px;
+        width: 492px;
         height: 144px;
         font-size: 36px;
         line-height: 48px;
@@ -943,6 +945,8 @@
     .especial_subtitle{
         font-size: 16px;
         line-height: 20px;
+        letter-spacing: 3px;
+       
     }
     .especial_title{
         width: 546px;
@@ -1009,6 +1013,11 @@
     }
     .profile_contain{
         gap: 141px;
+    }
+    .testimonial_text-left{
+        display: flex;
+        align-items: flex-start;
+        text-align: initial;
     }
    
     .testimonial_description-right{
