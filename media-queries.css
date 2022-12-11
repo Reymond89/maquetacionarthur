@@ -820,7 +820,7 @@
     .posts_item{
         padding: 32px;
         display: flex;
-        /* width: 517px; */
+        width: 517px;
         height: 181px;
         flex-direction: column;
         justify-content: center;
