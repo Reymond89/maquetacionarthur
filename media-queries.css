@@ -239,8 +239,8 @@
     .suscription_container .sub_text{
         font-size: 36px;
         line-height: 48px;
-        width: 562px;
-        height: 96px;
+        /* width: 562px; */
+        /* height: 96px; */
         letter-spacing: -2px;
     }
     .suscription .input{
@@ -249,7 +249,7 @@
         text-align: inherit;
     }
     .suscription_container{
-        width: 1280px;
+        /* width: 1280px; */
         height: 256px;
     }
     .button_sub{

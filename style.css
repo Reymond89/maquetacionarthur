@@ -19,7 +19,7 @@
     }
 
 body{
-    max-width: 1440px;
+    /* max-width: 1440px; */
     min-width: 320px
 }
 html{
@@ -29,7 +29,6 @@ html{
 
 .header{
     width: 100%;
-    max-width: 1440px;
     max-height: 80px;
 }
 .container{
