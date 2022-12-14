@@ -1398,6 +1398,7 @@ main{
     align-items: center;
 }
 .blogs__contain-title{
+    margin-top: 30px;
     font-family: 'Sen';
     font-style: normal;
     font-weight: 700;
@@ -1416,7 +1417,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 32px 0;
+    
 }
 .blogs__img img{
     width: 320px;
@@ -1464,6 +1465,7 @@ main{
 }
 .button__prev-left{
     border: none;
+    background: none;
 
 }
 .button__prev-left img{
