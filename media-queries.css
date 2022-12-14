@@ -329,21 +329,23 @@
 
 @media screen and (min-width: 750px) {
     .home_hero{
-        height: 100vh;
+        /* height: 100vh; */
     }
     .home_text{
-        /* width: 804px; */
+        width: 60%;
         height: 100%;
         justify-content: center;
         align-items: flex-start;
         text-align: initial;
-        padding: 50px 60px;
+        padding: 50px 0;
+        gap: 20px;
     }
     .home_subtitle{
         font-size: 12px;
     }
     .home_text .home_title{
         font-size: 30px;
+        line-height: 35px;
     }
     .home_date{
         font-size: 14px;
@@ -533,6 +535,11 @@
         font-size: 14px;
         line-height: 24px;
     }
+
+    /* ********BLOG***************  */
+
+
+
 }
 
 @media screen and (min-width: 1000px) {
@@ -545,7 +552,9 @@
     }
    
     .home_text{
-        padding: 80px 80px;
+        padding: 90px 0;
+        width: 60%;
+        gap: 30px;
     }
     .home_subtitle{
         font-size: 14px;
@@ -704,9 +713,64 @@
         font-size: 18px;
         line-height: 24px;
     }
-
-
-
+    /* **********BLOG************ */
+    .blog__wrapper{
+        flex-direction: row;
+        padding: 2rem;
+    }   
+    .blogs__head{
+        align-items: flex-start;
+    }
+    .blog__text{
+        width: 50%;
+        text-align: initial;
+        display: flex;
+        align-items: flex-start;
+    }
+    .blog__picture{
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+    }
+    /* all posts */
+    .blogs__contain-title{
+        margin-top: 64px;
+        font-size: 2rem;
+        line-height: 3.125rem;
+        margin-bottom: 32px;
+    }
+    .blogs__wrapper{
+        flex-direction: row;
+        gap: 32px;
+    }
+    .blogs_text{
+        text-align: initial;
+    }
+    .blogs__line{
+        width: 100%;
+        margin-bottom: 44px;
+    }
+    .blogs__subtitle{
+        font-size: 1rem;
+       
+    } 
+    .blogs__title{
+        font-size: 1.875rem;
+        line-height: 1.875rem;
+        margin-bottom: -4px;
+    }
+    .blogs__description{
+        font-size: 0.875rem;
+        line-height: 1.375rem;
+    }
+    .blogs__pagination{
+        margin-top: 34px;
+    }
+    /* all category */
+    .category_title-posicion{
+        font-size: 1.875rem;
+        line-height: 1.875rem;
+    }
 }
 @media screen and (min-width: 1300px) {
     .header_nav .button_nav{
@@ -728,7 +792,7 @@
         padding: 128px 556px 192px 0;
     }
     .home_text{
-        padding: 80px 70px;
+        /* padding: 80px 70px; */
         height: 400px;
         gap: 24px;
     }
@@ -894,7 +958,7 @@
     }
    /* category */
     .category_contatiner{
-        margin: 0 0 68px 0;
+        /* margin: 0 0 68px 0; */
        
     }
    .category_title{
@@ -1042,6 +1106,86 @@
         line-height: 48px;
        
     }
+    /* *********BLOG***** */
+    .blog__container{
+        width: 100%;
+    }
+    .blog__subtitle{
+        font-size: 1rem;
+        line-height: 1.25rem;
+    }
+    .blog__title{
+        font-size: 2.25rem;
+        line-height: 3rem;
+        margin-bottom: -4px;
+    }
+    .blog__date{
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        margin-bottom: -4px;
+    }
+    .blog__description{
+        font-size: 1rem;
+        line-height: 1.75rem; 
+        margin-bottom: 12px;
+    }
+    .blog__button{
+        padding: 1rem 3rem;
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+    }
+    .blog__picture{
+        justify-content: flex-end;
+    }
+    .blog__picture img{
+        width: 515px;
+        height: 359px;
+    }
+    .blog__wrapper{
+        padding: 5rem;
+        height: 519px;
+    }   
 
- 
+    /* all posts */
+    .blogs__contain-title{
+       
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    .blogs__img img{
+        width: 490px;
+        height: 318px;
+    }
+    .blogs_text{
+        text-align: initial;
+    }
+    .blogs__line{
+        width: 100%;
+        margin-bottom: 44px;
+    }
+    .blogs__subtitle{
+        line-height: 1.25rem;
+       
+    } 
+    .blogs__title{
+        font-size: 2.25rem;
+        line-height: 3rem;
+       
+    }
+    .blogs__description{
+        font-size: 1rem;
+        line-height: 1.75rem;
+    }
+    .blogs__pagination{
+        margin-top: 34px;
+    }
+    /* All Category  */
+    .category__contain{
+        align-items: flex-start;
+    }
+    .category_title-posicion{
+        font-size: 2.25rem;
+        line-height: 3rem;
+        margin-bottom: 48px;
+    }
 }
