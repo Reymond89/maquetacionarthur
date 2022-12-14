@@ -1507,3 +1507,212 @@ main{
         flex-direction: column;
         align-items: center;
     }
+
+/* BLOG_POST */
+.blog__post{
+    width: 100%;
+}
+
+.blog__postcontainer{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 0;
+    align-items: center;
+}
+.blog__inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.blog__info-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+.blog__name{
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    letter-spacing: -1px;
+    color: var(--purple);
+    opacity: 0.87;
+}
+.blog__info{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    color: var(--Mediumgrey);
+    
+}
+.blogpost__title{
+    text-align: center;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.625rem;
+    line-height: 1.875rem;
+    letter-spacing: -2px;
+    color: var(--Black);
+    margin-bottom: 34px;
+}
+.blogpost__startup{
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+    color: var(--Black);
+    display: flex;
+    gap: 8px;
+}
+.shuttle{
+    width: 24px;
+    height: 24px;
+    background-image: url('./img/shuttle.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 34px;
+
+}
+.blogpost__img{
+    min-width: 300px;
+    max-width: 1280px;
+    max-height: 582px;
+    width: 100%;
+}
+
+/* body section */
+
+.body__section{
+    width: 100%;
+}
+
+.body__container{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 843px;
+    /* max-height: 1164px; desktop */
+}
+.body__content{
+    text-align: initial;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.body__title{
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5625rem;
+    line-height: 1.75rem;
+    letter-spacing: -1px;
+    color: var(--Black);
+    margin-bottom: 16px;
+}
+.body__description{
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    color: var(--Mediumgrey);
+}
+.body__description-margin{
+    margin-bottom: 48px;
+}
+.body__description-margin24{
+    margin-bottom: 24px;
+}
+.body__subtitle-list{
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+    color: var(--Black);
+    opacity: 0.78;
+}
+
+/* Other section */
+
+.other_section{
+    width: 100%;
+}
+.other__posts-container{
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.other__title{
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 32px;
+}
+.other__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+.other__article{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.other_picture{
+    width: 280px;
+    margin-bottom: 32px;
+}
+.article__date{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: var(--DarkGrey);
+    margin-bottom: 16px;
+    }
+.articledate-color{
+    color: var(--purple);
+}
+.article__subtitle{
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    letter-spacing: -1px;
+    margin-bottom: 16px;
+    color: var(--Black);
+}
+.article__description{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.625rem;
+    line-height: 0.9375rem;
+    color: var(--Black);
+}
