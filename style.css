@@ -1471,6 +1471,7 @@ main{
 .button__prev-left img{
     width: 73px;
     height: 32px;
+    object-fit: contain;
     
 }
 .button__next-right{

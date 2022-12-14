@@ -742,6 +742,7 @@
     .blogs__wrapper{
         flex-direction: row;
         gap: 32px;
+        padding: 32px 0;
     }
     .blogs_text{
         text-align: initial;
