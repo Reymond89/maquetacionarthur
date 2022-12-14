@@ -28,7 +28,7 @@
 
     .bannner_section{
         
-        padding: 70px;
+        /* padding: 70px; */
     }
 
     .banner_container{
@@ -202,10 +202,18 @@
         font-size: 48px;
         line-height: 64px;
         letter-spacing: -2px;
+        width: 669px;
+        height: 128px;
     }
     .banner_text p{
         font-size: 16px;
         line-height: 28px;
+        width: 646px;
+        height: 84px;
+        margin-bottom: 25px;
+    }
+    .banner_container{
+        padding: 128px 0 40px 0;
     }
     .patter_shape img{
         width: 1070px;
