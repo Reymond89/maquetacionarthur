@@ -512,7 +512,7 @@
         line-height: 20px;
         text-align: initial;
     }
-  
+    
 
     /* join section  */
 
@@ -521,7 +521,6 @@
         width: 414px;
         height: 256px;
     }
-
 
     .join_title{
         font-size: 26px;
@@ -541,6 +540,7 @@
 
 
 }
+
 
 @media screen and (min-width: 1000px) {
 
