@@ -185,7 +185,7 @@ html{
    
     width: 100%;
     text-align: center;
-    padding: 0 20px;
+    /* padding: 0 20px; */
 
 }
 .banner_text h1{
@@ -1359,6 +1359,7 @@ main{
     font-weight: 400;
     font-size: 0.625rem;
     line-height: 1.125rem;
+    color: var(--Mediumgrey);
 }
 .blog__button{
     padding: 0.625rem 1rem;
@@ -1414,6 +1415,7 @@ main{
     height: 10px;
     border-bottom: 1px solid var(--Mediumgrey);
     margin-bottom: 20px;
+    opacity: 0.32;
 }
 .blogs__wrapper{
     display: flex;
