@@ -613,7 +613,54 @@
         font-size: 1.25rem;
         line-height: 1.75rem;
     }
-}
+
+    /* ********* about Us ******** */
+
+    .about__us-header{
+        flex-direction: row-reverse;
+        width: 100%;
+        display: flex;
+        margin-top: 50px;
+        max-width: 681px;
+        align-items: center;
+        justify-content: center;
+    }
+    .about__description-contain{
+        width: 50%;
+        height: 112px;
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: unset;
+    }
+    .about__description{
+        text-align: initial;
+        padding-left: 32px;
+    }
+    .about__us{
+        position: relative;
+        width: 50%;
+        padding: 30px;
+        top: 5px;
+        margin-top: 40px;
+        margin-bottom: -51px;
+        z-index: 2;
+    }
+    .overview__img{
+        z-index: 1;
+        bottom: -4px;
+    }
+    .overview__text{
+        z-index: 2;
+        max-width: 322px;
+        min-height: 90px;
+        margin-right: 211px;
+    }
+    .overviwe__pattern{
+        max-width: 500px;
+        z-index: 2;
+        margin-right: 35px;
+    }
+   
 
 
 @media screen and (min-width: 1000px) {
