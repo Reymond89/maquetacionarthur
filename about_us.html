@@ -32,39 +32,46 @@
             <li><a href="#form_container" class="button_nav">Subscribe</a></li>
           </ul>
         </nav>
-      </header>
-      <main>
-        <section class="heading__section">
-            <div class="heading_container" id="heading_container">
-                <p class="heading_subtitle">Contact us</p>
-                <h1>Let’s Start a Conversation</h1>
-                <p class="heading_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
-            </div>
-            <div class="contact_us-container">
-                <div class="contact_text">
-                    <p>Working hours</p>
-                    <span class="line"></span>
-                    <h5>Monday To Friday <br> 9:00 AM to 8:00 PM </h5>
-                    <p>Our Support Team is available 24/7</p>
+    </header>
+    <main>
+        <section class="about__section">
+            <div class="about__container">
+
+                <div class="about__us-header">
+                    <div class="about__description-contain"> 
+                        <p class="about__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>   
+                    <div class="about__us">
+                        <span class="about__subtitle">ABOUT US</span>
+                        <h1 class="about__title">We are a team of content writers who share their learnings</h1>
+                    </div>
                 </div>
-                <div class="contact_text">
-                    <p>Contact Us</p>
-                    <span class="line"></span>
-                    <h5>020 7993 2905</h5>
-                    <p>hello@finsweet.com</p>
+
+                <picture class="overview__contain-img">
+                    <img class="overview__img" src="./img/about_us/photo-of-woman-wearing-eyeglasses-3184405.png" alt="">
+                </picture>
+
+                <div class="overview__text">
+                    <div class="overview__views">
+                        <span class="overview__background-title">12+</span>
+                        <p class="overview__description">Blogs Published</p>
+                    </div>
+                    <div class="overview__views">
+                        <span class="overview__background-title">18k+</span>
+                        <p class="overview__description">Views on Finsweet</p>
+                    </div>
+                    <div class="overview__views">
+                        <span class="overview__background-title">30k+</span>
+                        <p class="overview__description">Total active Users</p>
+                    </div>
                 </div>
                 
-            </div>
-            <div class="form_container" id="form_container">
-                <input type="text" placeholder="Full Name">
-                <input type="text" placeholder="Your Email">
-                <input type="text" placeholder="Query Related" class="vector">
-                <input class="form_big" type="text" placeholder="Message">
-                <button>Send Message</button>
+                <img class="overviwe__pattern" src="img/about_us/about__Pattern.svg" alt="">
             </div>
         </section>
+     
     </main>
-      <footer>
+    <footer>
         <div class="footer_container">
           <nav class="footer_nav">
             <picture>
@@ -102,13 +109,13 @@
 
         </div>
 
-      </footer>
-      <script>
+    </footer>
+    <script>
         const checkBox  = document.querySelector('#check');
         // Crea un Array con los li
         const lis = Array.from(document.querySelector('.header_nav').getElementsByTagName('li')) 
         // Recorre cada li y le agrega el envento click que desactiva el checkBox
         lis.forEach(li => li.addEventListener('click', () =>  checkBox.checked = false))
-      </script>
+    </script>
 </body>
 </html>
