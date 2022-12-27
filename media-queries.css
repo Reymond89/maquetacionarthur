@@ -626,19 +626,23 @@
         justify-content: center;
     }
     .about__description-contain{
-        width: 50%;
+        width: 40%;
         height: 112px;
         display: flex;
-        align-items: flex-end;
+        align-items: center;
         margin-bottom: unset;
     }
     .about__description{
         text-align: initial;
-        padding-left: 32px;
+     
     }
     .about__us{
+       width: 60%;
+    }
+    .about__us-contain{
         position: relative;
-        width: 50%;
+        max-width: 624px;
+        max-height: 356px;
         padding: 30px;
         top: 5px;
         margin-top: 40px;
@@ -975,6 +979,48 @@
        
     }
 
+    /* ******** ABOUT_US ********* */
+
+    .about__us-contain{
+        /* max-width: 400px; */
+    }
+    .about__subtitle{
+        font-size: 0.8125rem;
+        line-height: 16px;
+    }
+    .about__title{
+        margin-top: 16px;
+        font-size: 1.875rem;
+        line-height: 2.5rem;
+        width: 300px;
+    }
+    .about__description{
+        font-size: 11px;
+        line-height: 19px;
+    }
+
+    .overview__img{
+        width: 800px;
+    }
+
+    .overview__background-title{
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .overview__description{
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .overview__text{
+        max-width: 400px;
+        min-height: 91px;
+    }
+    .overviwe__pattern{
+        margin-right: 113px;
+    }
+    .overviwe__pattern{
+        margin-bottom: -1px;
+    }
 }
 @media screen and (min-width: 1300px) {
     .header_nav .button_nav{
@@ -1437,6 +1483,69 @@
         border: 1px solid #6D6E76;
         opacity: 0.3;
         margin-top: -20px;
+    }
+
+       /* ******** ABOUT_US ********* */
+
+    .about__us{
+       justify-content: end;
+    }
+    .about__subtitle{
+        font-size: 1rem;
+        line-height: 1.25rem;
+    }
+    .about__title{
+    
+        font-size: 3rem;
+        line-height: 4rem;
+        width: 496px;
+        height: 192px;
+        letter-spacing: -2px;
+    }
+    .about__us-contain{
+        top: 35px;
+        left: 37px;
+        max-width: 624px;
+        max-height: 356px;
+        padding: 64px;
+    }
+    .about__description{
+        font-size: 16px;
+        line-height: 28px;
+        width: 534px;
+        height: 112px;
+        padding-left: 50px;
+    }
+
+    .overview__img{
+        width: 1280px;
+        height: 444px;
+    }
+    .overview__views{
+        padding: 32px;
+    }
+
+    .overview__background-title{
+        font-size: 56px;
+        line-height: 64px;
+        letter-spacing: -2px;
+    }
+    .overview__description{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .overview__text{
+        max-width: 630px;
+        min-height: 178px;
+        margin-left: -220px;
+    }
+    .overviwe__pattern{
+        margin-right: 113px;
+    }
+    .overviwe__pattern{
+        max-width: 861px;
+        max-height: 23px;
+        margin-left: -88px;
     }
 
 
