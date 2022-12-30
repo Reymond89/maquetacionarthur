@@ -1649,6 +1649,7 @@
      /* *** MISION VISION   **** */
 
      .misionvision__wrapper{
+        width: 100%;
         max-width: 1280px;
         padding: 128px 108px 64px 108px;
     }
