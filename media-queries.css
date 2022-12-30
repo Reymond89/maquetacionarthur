@@ -664,8 +664,38 @@
         z-index: 2;
         margin-right: 35px;
     }
-   
 
+    /* *** MISION VISION   **** */
+
+    .misionvision__wrapper{
+        flex-direction: row;
+        max-width: 700px;
+        padding: 30px 20px;
+    }
+    .mision__section{
+        text-align: initial;
+    }
+    .vision__section{
+        text-align: initial;
+    }
+    /* * TEAM  *** */
+
+    .team__wrapper{
+        flex-direction: row;
+        max-width: 700px;
+        gap: 50px;
+    }
+    .team__text{
+        text-align: initial;
+    }
+    .team__shapes{
+        display: block;
+        margin-right: 305px;
+        margin-bottom: 97px;
+    }
+    .team__hands{
+        width: 300px;
+    }
 
 @media screen and (min-width: 1000px) {
 
@@ -1021,6 +1051,70 @@
     .overviwe__pattern{
         margin-bottom: -1px;
     }
+
+    /* *** MISION VISION   **** */
+
+    .misionvision__wrapper{
+        flex-direction: row;
+        max-width: 800px;
+        padding: 80px 40px;
+    }
+    .mision__subtitle{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .mision__title{
+        font-size: 23px;
+        line-height: 28px;
+        letter-spacing: -1px;
+    }
+    .mision__description{
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .vision__subtitle{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .vision__title{
+        font-size: 23px;
+        line-height: 28px;
+        letter-spacing: -1px;
+    }
+    .vision__description{
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+      /* * TEAM  *** */
+
+    .team__wrapper{
+       
+        max-width: 800px;
+        gap: 70px;
+    }
+
+    .team__shapes{
+        width: 80px;
+        margin-right: 403px;
+        margin-bottom: 97px;
+    }
+    .team__hands{
+        width: 400px;
+    }
+    .team__title{
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .team__subtitle{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .team__description{
+        font-size: 12px;
+        line-height: 18px;
+    }
+
 }
 @media screen and (min-width: 1300px) {
     .header_nav .button_nav{
@@ -1515,6 +1609,7 @@
         width: 534px;
         height: 112px;
         padding-left: 50px;
+        margin-top: 110px;
     }
 
     .overview__img{
@@ -1547,7 +1642,85 @@
         max-height: 23px;
         margin-left: -88px;
     }
+    .about__container{
+        max-width: 1280px;
+    }
 
+     /* *** MISION VISION   **** */
+
+     .misionvision__wrapper{
+        max-width: 1280px;
+        padding: 128px 108px 64px 108px;
+    }
+    .mision__subtitle{
+        font-size: 1rem;
+        line-height: 1.25rem;
+    }
+    .mision__title{
+        width: 481px;
+        height: 80px;
+        font-size: 1.75rem;
+        line-height: 2.5rem;
+        letter-spacing: -1px;
+    }
+    .mision__description{
+        font-size: 1rem;
+        line-height: 1.75rem;
+    }
+    .vision__subtitle{
+        font-size: 1rem;
+        line-height: 1.25rem;
+
+    }
+    .vision__title{
+        width: 475px;
+        height: 80px;
+        font-size: 1.75rem;
+        line-height: 2.5rem;
+    
+    }
+    .vision__description{
+        font-size: 1rem;
+        line-height: 1.75rem;
+    }
+
+    /* * TEAM  *** */
+
+    .team__wrapper{
+       
+        max-width: 1280px;
+        gap: 137px;
+        padding: 128px 0 40px 0;
+    }
+    .team__text{
+        padding: 0 0 0 10px;
+    }
+
+    .team__shapes{
+        width: 103px;
+        height: 116px;
+        margin-right: 631px;
+        margin-bottom: 136px;
+    }
+    .team__hands{
+        width: 624px;
+        height: 480px;
+    }
+    .team__title{
+        font-size: 2.25rem;
+        line-height: 3rem;
+        letter-spacing: -2px;
+    }
+    .team__subtitle{
+        width: 519px;
+        height: 96px;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .team__description{
+        font-size: 1rem;
+        line-height: 1.75rem;
+    }
 
 
 
