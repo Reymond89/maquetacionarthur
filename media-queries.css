@@ -1765,6 +1765,8 @@
         line-height: 2rem;
     }
     .team__description{
+        width: 524px;
+        height: 140px;
         font-size: 1rem;
         line-height: 1.75rem;
     }
@@ -1796,6 +1798,8 @@
         line-height: 2rem;
     }
     .strated__description{
+        width: 524px;
+        height: 140px;
         font-size: 1rem;
         line-height: 1.75rem;
     }
