@@ -1251,7 +1251,7 @@ main{
     height: 100%;
     display: flex;
     justify-content: center;
-    margin: 40px 0;
+    /* margin: 40px 0; */
 }
 
 .jointeam_contain{

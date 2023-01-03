@@ -484,7 +484,7 @@
 
     .author_container{
         padding: 28px 0 0 0;
-        margin-bottom: 68px;
+        /* margin-bottom: 68px; */
     }
 
     .author_title{
@@ -871,7 +871,7 @@
       /* join section  */
 
       .jointeam_contain{
-       margin: 85px 0 128px 0;
+       margin: 128px 0 128px 0;
     }
     .join_title{
         font-size: 30px;
@@ -1773,7 +1773,7 @@
 
     .strated__wrapper{
         max-width: 1280px;
-        padding: 128px 0;
+        padding: 88px 0 0 0;
         gap: 64px;
         justify-content: flex-start;
     }
